@@ -1,0 +1,36 @@
+.site-slider{
+    background-image: url('../img/slider.bg.jpg');
+}
+
+/*** tns slider ***/
+
+.tns-controls button{
+    position: absolute;
+    top: calc(50% - 29px);
+    left: 10px;
+    width: 29px;
+    height: 58px;
+    background: transparent none;
+    border: none;
+    text-indent: -100vw;
+
+    &:after{
+        content: " ";
+        display: block;
+        width: 29px;
+        height: 58px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: transparent url('../img/icon-arrow-left.svg') no-repeat top left;
+    }
+}
+
+.tns-controls button:last-child{
+    right: 10px;
+    left: auto;
+
+    &:after{
+        background: transparent url('../img/icon-arrow-right.svg') no-repeat top left;
+    }
+}

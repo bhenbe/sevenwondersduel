@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "TrajanPro";
+    src: url("../fonts/TrajanProRegular.woff2") format("woff2");
+    font-display: swap;
+}
+
+body{
+	font: 1rem / 1.4 'TrajanPro', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin-bottom: 1.1rem;
+}
+
+p{
+	font-size: 1em;
+	max-width: 64ch;
+	line-height: 1.5;
+	margin-top: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-size: 1em;
+	line-height: 1.1;
+	margin-top: 2.2rem;
+	font-weight: 400;
+}
+
+h1{
+	font-size: 2em;
+}
+
+h2{
+	font-size: 1.8em;
+}
+
+h3{
+	font-size: 1.6em;
+}
+
+h4{
+	font-size: 1.4em;
+}
+
+h5{
+	font-size: 1.2em;
+}
+
+a{
+	color: #F5DDC2;
+	text-decoration: none;
+
+	&:active,
+	&:focus,
+	&:hover{
+		color: #F5DDC2;
+		text-decoration: underline;
+	}
+}

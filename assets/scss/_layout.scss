@@ -1,0 +1,11 @@
+$mq-tablet: 42rem;
+$mq-laptop: 68rem;
+$mq-desktop: 90rem;
+
+.container{
+    margin: 0 auto;
+    max-width: calc(#{$mq-desktop} + (var(--gap) * 2));
+    padding-left: var(--gap);
+    padding-right: var(--gap);
+    width: 100%;
+}

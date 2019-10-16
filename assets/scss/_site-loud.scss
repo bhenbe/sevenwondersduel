@@ -1,0 +1,22 @@
+.site-loud{
+    background-image: url('../img/header.bg.jpg');
+    min-height: calc(100vh - 80px);
+
+    &__picture{
+        display: none;
+    }
+
+    @media(min-width: #{$mq-desktop}){
+        &__picture{
+            position: absolute;
+            display: block;
+            top: calc((100vh - 80px) - 600px);
+            left: 0;
+        }
+
+        .container{
+            display: flex;
+            flex-flow: column nowrap;
+        }
+    }
+}

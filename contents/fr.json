@@ -1,0 +1,27 @@
+{
+    "header": {
+            "title": "7wonders the game",
+            "description": "7wonders, a game by Repos Prod",
+            "keywords": "board, boardgame"
+    },
+    "body": {
+            "loud": "Hello world",
+            "nav": { 
+                "Présentation" : "https://mediakod.com",
+                "Les règles du jeu" : "https://mediakod.com",
+                "L'extension: Panthéon" : "https://mediakod.com",
+                "Making of" : "https://mediakod.com",
+                "Téléchargements" : "https://mediakod.com",
+                "Duel App" : "https://mediakod.com"
+            },
+            "requirements": {
+                "heading": "Caractéristiques techniques minimales requises",
+                "android": "Android 4.1 ou version ultérieure 600 MO d’espace sur le disque",
+                "apple": "Un système d’exploitation IOS 9 au minimum 600 MO d’espace sur le disque"
+            },
+            "bottom": {
+                "heading": "Lorem ispum doloris pouet pouet",
+                "paragraph": "Bâtissez votre civilisation antique à travers trois âges évolutifs. Construisez-y des bâtiments scientifiques reflétant le progrès technologique de votre cité. Commercez avec vos voisins, érigez des constructions civiles pour vos concitoyens et faites grandir vos forces armées pour lutter contre vos adversaires à la fin de chaque âge. Enfin, magnifiez votre civilisation en édifiant l’une des 7 merveilles du monde !"
+            }
+    }
+}

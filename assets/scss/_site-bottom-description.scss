@@ -1,0 +1,52 @@
+.site-bottom-description{
+    background-image: url('../img/bottom-description.bg.jpg');
+
+    img{
+        display: none;
+    }
+
+    @media(min-width: #{$mq-tablet}){
+        min-height: 400px;
+
+        img{
+            position: absolute;
+            left: calc(33% - 50%);
+            bottom: 0;
+            width: 50%;
+            max-width: 640px;
+            height: auto;
+            display: block;
+        }
+
+        .content{
+            width: 66%;
+            margin-left: 33%;
+        }
+    }
+
+    @media(min-width: #{$mq-laptop}){
+        min-height: 540px;
+
+        img{
+            left: calc(42% - 50%);
+        }
+
+        .content{
+            width: 58%;
+            margin-left: 42%;
+        }
+    }
+
+    @media(min-width: #{$mq-desktop}){
+        min-height: 680px;
+
+        img{
+            left: calc(100% - #{$mq-desktop});
+        }
+
+        .content{
+            width: 50%;
+            margin-left: 50%;
+        }
+    }
+}

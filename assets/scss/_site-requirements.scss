@@ -1,0 +1,68 @@
+.site-requirements{
+    background-image: url('../img/requirements.bg.jpg');
+
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    & > img{
+        display: none;
+    }
+
+    h2{
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 2rem;
+        font-size: 1.4em;
+    }
+
+    .flex{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .col{
+        img{
+            width: 64px;
+            height: 64px;
+            float: left;
+        }
+
+        p{
+            margin: 0 0 2rem 80px;
+            max-width: 22ch;
+        }
+
+        &:before,
+        &:after{
+            display: table;
+            content: "";
+            clear: both;
+        }
+
+        &:first-child{
+            margin-right: var(--gap);
+        }
+    }
+
+    @media(min-width: #{$mq-tablet}){
+        & > img{
+            position: absolute;
+            display: block;
+            bottom: 1px;
+            left: calc(#{$mq-tablet} + ((100% - #{$mq-tablet}) / 2));
+            width: auto;
+            height: 90%;
+        }
+
+        h2{
+            font-size: 1.6em;
+        }
+
+        .flex{
+            flex-flow: row nowrap;
+        }
+    }
+}

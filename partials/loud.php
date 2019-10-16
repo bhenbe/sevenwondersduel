@@ -8,7 +8,7 @@
 
             <h1><?php echo $content['body']['loud']['heading']; ?></h1>
 
-            <img src="./assets/img/brand.png" alt="7 Wonders Duel"/>
+            <img class="brand" src="./assets/img/brand.png" alt="7 Wonders Duel"/>
 
             <a href="<?php echo $content['body']['loud']['google-play']; ?>"><img src="./assets/img/google-play.btn.png" alt="Google Play"/></a>
 

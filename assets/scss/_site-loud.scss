@@ -22,6 +22,7 @@
     .content{
         width: 100%;
         text-align: center;
+        position: relative;
 
         h1{
             position: relative;
@@ -49,12 +50,17 @@
 
         a{
             display: block;
+            margin-top: 2rem;
         }
 
         img{
             display: inline-block;
             width: auto;
             max-height: 56px;
+        }
+
+        .brand{
+            max-height: 90px;
         }
     }
 

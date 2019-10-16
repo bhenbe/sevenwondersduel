@@ -78,17 +78,21 @@
         .container > img{
             display: block;
             position: absolute;
-            bottom: -100px;
-            left: -100px;
-            max-height: 100vh;
-            width: auto;
+            bottom: (($mq-tablet / 7) * -1);
+            left: -200px;
+            max-width: ($mq-tablet * 1.5);
+            height: auto;
         }
     }
 
     @media(min-width: #{$mq-laptop}){
         .container > img{
-            bottom: -150px;
-            left: -150px;
+            /*bottom: -200px;
+            left: -200px;
+            max-height: 200vh*/
+            bottom: (($mq-laptop / 7) * -1);
+            left: -100px;
+            max-width: $mq-laptop;
         }
     }
 
@@ -98,8 +102,12 @@
         }
 
         .container > img{
-            bottom: -200px;
+            /*bottom: -200px;
             left: -200px;
+            max-height: 100vh;*/
+            bottom: (($mq-desktop / 7) * -1);
+            left: (($mq-desktop / 7) * -1);
+            max-width: $mq-desktop;
         }
     }
 }

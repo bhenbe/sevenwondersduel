@@ -1,22 +1,99 @@
 .site-loud{
-    background-image: url('../img/header.bg.jpg');
-    min-height: calc(100vh - 80px);
+    //background-image: url('../img/header.bg.jpg');
+    background-color: #e2a06c;
+    color: #1e140c;
+    width: 100%;
+    height: calc(100vh - 80px);
+    overflow: hidden;
 
-    &__picture{
+    .container > img{
         display: none;
     }
 
-    @media(min-width: #{$mq-desktop}){
-        &__picture{
-            position: absolute;
-            display: block;
-            top: calc((100vh - 80px) - 600px);
-            left: 0;
+    .container{
+        position: relative;
+        min-height: calc(100vh - 80px);
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content{
+        width: 100%;
+        text-align: center;
+
+        h1{
+            position: relative;
+            padding-top: 12px;
+            padding-bottom: 12px;
+
+            &:before,
+            &:after{
+                content: " ";
+                display: block;
+                width: 100%;
+                height: 9px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background: transparent url('../img/pattern.svg') repeat-x top left;
+                background-size: 11px 6px;
+            }
+
+            &:after{
+                top: auto;
+                bottom: 0;
+            }
         }
 
+        a{
+            display: block;
+        }
+
+        img{
+            display: inline-block;
+            width: auto;
+            max-height: 56px;
+        }
+    }
+
+    @media(min-width: #{$mq-tablet}){
         .container{
-            display: flex;
-            flex-flow: column nowrap;
+            align-items: flex-end;
+        }
+
+        .content{
+            width: 40%;
+            max-width: 360px;
+            margin-right: 100px;
+        }
+
+        .container > img{
+            display: block;
+            position: absolute;
+            bottom: -100px;
+            left: -100px;
+            max-height: 100vh;
+            width: auto;
+        }
+    }
+
+    @media(min-width: #{$mq-laptop}){
+        .container > img{
+            bottom: -150px;
+            left: -150px;
+        }
+    }
+
+    @media(min-width: #{$mq-desktop}){
+        .content{
+            margin-right: 200px;
+        }
+
+        .container > img{
+            bottom: -200px;
+            left: -200px;
         }
     }
 }

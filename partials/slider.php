@@ -1,4 +1,4 @@
-<section class="site-slider section">
+<section class="site-slider section lazy" data-bg="url(./assets/img/slider.bg.jpg)">
 
     <div class="container">
 

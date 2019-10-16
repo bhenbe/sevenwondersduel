@@ -9,3 +9,12 @@ $mq-desktop: 90rem;
     padding-right: var(--gap);
     width: 100%;
 }
+
+.clearfix{
+    &:before,
+    &:after{
+        display: table;
+        content: " ";
+        clear: both;
+    }
+}

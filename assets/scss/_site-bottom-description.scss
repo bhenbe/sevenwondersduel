@@ -1,5 +1,5 @@
 .site-bottom-description{
-    background-image: url('../img/bottom-description.bg.jpg');
+    //background-image: url('../img/bottom-description.bg.jpg');
 
     img{
         display: none;
@@ -38,10 +38,10 @@
     }
 
     @media(min-width: #{$mq-desktop}){
-        min-height: 680px;
+        min-height: 560px;
 
         img{
-            left: calc(100% - #{$mq-desktop});
+            left: calc((100% - #{$mq-desktop}) / 2);
         }
 
         .content{

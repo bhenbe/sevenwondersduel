@@ -5,7 +5,11 @@
             "keywords": "board, boardgame"
     },
     "body": {
-            "loud": "Hello world",
+            "loud": {
+                "heading" : "Lorem ipsum doloris pouet pouet",
+                "google-play" : "#",
+                "app-store" : "#"
+            },
             "nav": { 
                 "Présentation" : "https://mediakod.com",
                 "Les règles du jeu" : "https://mediakod.com",

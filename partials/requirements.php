@@ -1,4 +1,4 @@
-<section class="site-requirements section section-alt">
+<section class="site-requirements section section-alt lazy" data-bg="url(./assets/img/requirements.bg.jpg)">
 
     <div class="container">
 
@@ -6,7 +6,7 @@
 
         <div class="flex">
 
-            <div class="col">
+            <div class="col clearfix">
 
                 <img src="./assets/img/icon-android.svg" alt=""/>
 
@@ -14,7 +14,7 @@
 
             </div>
 
-            <div class="col">
+            <div class="col clearfix">
 
                 <img src="./assets/img/icon-apple.svg" alt=""/>
 
@@ -26,6 +26,6 @@
 
     </div>
 
-    <img src="./assets/img/gladiator.png" alt=""/>
+    <img class="lazy" data-src="./assets/img/gladiator.png" alt=""/>
 
 </section>

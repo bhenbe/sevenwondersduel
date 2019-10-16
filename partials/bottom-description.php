@@ -1,4 +1,4 @@
-<section class="site-bottom-description section section-alt">
+<section class="site-bottom-description section section-alt lazy" data-bg="url(./assets/img/bottom-description.bg.jpg)">
 
     <div class="container">
 
@@ -12,6 +12,6 @@
 
     </div>
 
-    <img src="./assets/img/construction.png" alt=""/>
+    <img class="lazy" data-src="./assets/img/construction.png" alt=""/>
 
 </section>

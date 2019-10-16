@@ -1,6 +1,6 @@
-.site-slider{
+/*.site-slider{
     background-image: url('../img/slider.bg.jpg');
-}
+}*/
 
 /*** tns slider ***/
 
@@ -33,4 +33,13 @@
     &:after{
         background: transparent url('../img/icon-arrow-right.svg') no-repeat top left;
     }
+}
+
+.tns-outer{
+    position: relative;
+}
+
+.tns-ovh{
+    margin-left: 48px !important;
+    margin-right: 48px !important;
 }

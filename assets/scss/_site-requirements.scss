@@ -1,6 +1,7 @@
 .site-requirements{
-    background-image: url('../img/requirements.bg.jpg');
+    //background-image: url('../img/requirements.bg.jpg');
 
+    min-height: 180px;
     width: 100%;
     overflow-x: hidden;
     overflow-y: auto;
@@ -33,13 +34,6 @@
         p{
             margin: 0 0 2rem 80px;
             max-width: 22ch;
-        }
-
-        &:before,
-        &:after{
-            display: table;
-            content: "";
-            clear: both;
         }
 
         &:first-child{

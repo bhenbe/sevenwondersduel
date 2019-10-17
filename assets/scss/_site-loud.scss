@@ -81,7 +81,7 @@
             display: block;
             position: absolute;
             bottom: -35vh;
-            right: 20vh;
+            right: calc((100vh / 2) - (100vh * 1.4 / 4));
             width: auto;
             max-width: none;
             height: calc(100vh * 1.4);
@@ -94,13 +94,17 @@
         }
 
         .container > img{
-            right: 40vh;
+            //right: 40vh;
         }
     }
 
     @media(min-width: #{$mq-desktop}){
         .content{
             margin-right: 200px;
+        }
+
+        .container > img{
+            //right: 30vh;
         }
     }
 }

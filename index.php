@@ -2,7 +2,7 @@
 
     require_once('config.php');
 
-    $content = get_content('./contents/fr.json');
+    $content = get_content('./contents/'.$current_lang.'.json');
     $slider_images = get_slider_images();
 
     /** view **/

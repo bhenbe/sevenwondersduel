@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="<?php echo $current_lang; ?>">
 <head>
     
     <meta charset="UTF-8" />
     
-    <title><?php echo $meta[$current_lang]['title']; ?></title>
+    <title><?php echo $content['header']['title']; ?></title>
     
     <link rel="stylesheet" href="./assets/css/styles.css?time=<?php echo time(); ?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">

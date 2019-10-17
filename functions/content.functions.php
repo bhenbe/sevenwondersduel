@@ -2,11 +2,19 @@
 
     function get_content($file) {
 
-        $json = file_get_contents($file);
+        try{
 
-        $array = json_decode($json, true);
+            $json = file_get_contents($file);
 
-        return $array;
+            $array = json_decode($json, true);
+
+            return $array;
+
+        } catch (Exception $e) {
+
+            echo 'Exception reçue : ',  $e->getMessage(), "\n";
+            
+        }
 
     }
 

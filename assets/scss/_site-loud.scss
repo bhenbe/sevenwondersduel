@@ -74,17 +74,18 @@
         .content{
             width: 40%;
             max-width: 360px;
-            margin-right: 100px;
+            margin-right: 200px;
         }
 
         .container > img{
             display: block;
             position: absolute;
-            bottom: -35vh;
-            right: calc((100vh / 2) - (100vh * 1.4 / 4));
+            bottom: -30vh; 
+            right: calc(50% - 32vw);
             width: auto;
             max-width: none;
             height: calc(100vh * 1.4);
+            max-height: 1500px;
         }
     }
 
@@ -94,7 +95,7 @@
         }
 
         .container > img{
-            //right: 40vh;
+            right: calc(50% - 25vw);
         }
     }
 
@@ -104,7 +105,7 @@
         }
 
         .container > img{
-            //right: 30vh;
+            right: calc(50% - 20vw);
         }
     }
 }

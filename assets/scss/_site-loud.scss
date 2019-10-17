@@ -3,8 +3,9 @@
     background-color: #e2a06c;
     color: #1e140c;
     width: 100%;
-    height: calc(100vh - 80px);
     overflow: hidden;
+    padding-top: 0;
+    padding-bottom: 0;
 
     .container > img{
         display: none;
@@ -12,7 +13,7 @@
 
     .container{
         position: relative;
-        min-height: calc(100vh - 80px);
+        min-height: 100vh;
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
@@ -67,6 +68,7 @@
     @media(min-width: #{$mq-tablet}){
         .container{
             align-items: flex-end;
+            min-height: calc(100vh - 140px);
         }
 
         .content{
@@ -78,36 +80,27 @@
         .container > img{
             display: block;
             position: absolute;
-            bottom: (($mq-tablet / 7) * -1);
-            left: -200px;
-            max-width: ($mq-tablet * 1.5);
-            height: auto;
+            bottom: -35vh;
+            right: 20vh;
+            width: auto;
+            max-width: none;
+            height: calc(100vh * 1.4);
         }
     }
 
     @media(min-width: #{$mq-laptop}){
+        .container{
+            min-height: calc(100vh - 70px);
+        }
+
         .container > img{
-            /*bottom: -200px;
-            left: -200px;
-            max-height: 200vh*/
-            bottom: (($mq-laptop / 7) * -1);
-            left: -100px;
-            max-width: $mq-laptop;
+            right: 40vh;
         }
     }
 
     @media(min-width: #{$mq-desktop}){
         .content{
             margin-right: 200px;
-        }
-
-        .container > img{
-            /*bottom: -200px;
-            left: -200px;
-            max-height: 100vh;*/
-            bottom: (($mq-desktop / 7) * -1);
-            left: (($mq-desktop / 7) * -1);
-            max-width: $mq-desktop;
         }
     }
 }

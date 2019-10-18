@@ -48,7 +48,7 @@ Les fichiers json sont des tableaux structurés qui permettent de gérer l'ensem
 ### Simples et doubles guillements
 Chaque phrase des fichiers json étant placées entre doubles guillements, il convient soit d'utiliser des simples guillemets soit de précéder un double guillemet du caractère \ pour ne pas "briser" la ligne de texte.
 
-**Exemple: "ceci est un commentaire reçu: \"J'adore votre jeu !\""**
+**Exemple: "ceci est un commentaire reçu: \\"J'adore votre jeu !\\""**
 
 ### Ajout de version
 Il est possible d'ajouter une nouvelle version du site en ajoutant un fichier *.json. 

@@ -22,7 +22,7 @@
 
         $result = array();
         $dir = "./contents/slider/";
-        $files = glob($dir . "/*.png");
+        $files = glob($dir . "/*.jpg");
 
         foreach($files as $img)
             $result[] = $img;

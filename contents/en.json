@@ -11,12 +11,12 @@
                 "app-store" : "#"
             },
             "nav": { 
-                "Présentation" : "https://mediakod.com",
-                "Les règles du jeu" : "https://mediakod.com",
-                "L'extension: Panthéon" : "https://mediakod.com",
-                "Making of" : "https://mediakod.com",
-                "Téléchargements" : "https://mediakod.com",
-                "Duel App" : "https://mediakod.com"
+                "Itroduction" : "http://www.7wondersduel.com/7wonders-duel.php?lang=en",
+                "Rules of the game" : "http://www.7wondersduel.com/7wonders-duel-rules.php?lang=en",
+                "The expansion: Panthéon" : "http://www.7wondersduel.com/7wonders-duel-pantheon.php?lang=en",
+                "Making of" : "http://www.7wondersduel.com/7wonders-duel-making-of.php?lang=en",
+                "Downloads" : "http://www.7wondersduel.com/7wonders-duel-download.php?lang=en",
+                "Mobile App" : "http://www.7wondersduel.com/app?lang=en"
             },
             "requirements": {
                 "heading": "Caractéristiques techniques minimales requises",

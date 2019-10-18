@@ -8,6 +8,7 @@
             slideBy: 1,
             nav: false,
             autoplay: false,
+            gutter: 32,
             responsive: {
                 0: {
                     items: 1

@@ -34,3 +34,10 @@
 
 </head>
 <body>
+
+        <nav class="lang-nav">
+            <ul class="list-unstyled">
+                <li><a href="./?lang=fr"><img src="./assets/img/fr-fr.svg" alt="Version Français"/></a></li>
+                <li><a href="./?lang=en"><img src="./assets/img/en-gb.svg" alt="English version"/></a></li>
+            </ul>
+        </nav>

@@ -1,3 +1,22 @@
+.lang-nav{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    z-index: 5000;
+
+    ul{
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    img{
+        width: 32px;
+        height: 32px;
+        margin-left: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,.2);
+    }
+}
+
 .site-nav{
     padding-top: 1rem;
     padding-bottom: 1rem;

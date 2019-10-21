@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <circle id="path-1" cx="90" cy="90" r="90"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="en-gb">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+            <g id="Group" mask="url(#mask-2)">
+                <g transform="translate(-32.000000, -30.000000)">
+                    <rect id="Rectangle" fill="#1A56CD" x="28" y="0" width="189" height="241"></rect>
+                    <polygon id="Path" fill="#FFFFFF" points="143 30 143 101.5 143.64 101.5 218 57.5 223 80 185.864 101.5 214.5 101.5 214.5 138.5 174.5 138.5 222 166 217 188.5 143 144.713 143 216 102 216 102 144.417 27.5 188.5 22.5 166 70 138.5 28.5 138.5 28.5 101.5 58.635 101.499 21.5 80 26.5 57.5 100.858 101.499 102 101.499 102 30"></polygon>
+                    <path d="M136,30 L136,108.5 L214.5,108.5 L214.5,132.5 L136,132.5 L136,216 L109,216 L109,132.5 L28.5,132.5 L28.5,108.5 L109,108.5 L109,30 L136,30 Z M105,138.5 L20.5,188.5 L38.5,166 L86,138.5 L105,138.5 Z M166,138 L213.5,165.5 L231.5,188 L147,138 L166,138 Z M232.5,53 L214.5,75.5 L167,103 L148,103 L232.5,53 Z M0.5,51.5 L85,101.5 L66,101.5 L18.5,74 L0.5,51.5 Z" id="Shape" fill="#FF0000"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
